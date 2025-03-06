@@ -1,0 +1,1 @@
+The entire core file content is planned to be a DLL.

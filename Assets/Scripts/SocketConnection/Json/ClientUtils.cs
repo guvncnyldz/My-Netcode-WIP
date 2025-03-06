@@ -3,6 +3,7 @@ using System.Linq.Expressions;
 
 public static class ClientUtils
 {
+    /*
     public static void StartSendingJsonToServerWithKey(Expression<Action> action, int key)
     {
         MakeJsonData makeJsonData = new MakeJsonData(action,key);
@@ -18,5 +19,5 @@ public static class ClientUtils
         JsonOperation jsonOperation = new JsonOperation();
 
         jsonOperation.ProccessJson(makeJsonData.Make());
-    }
+    }*/
 }

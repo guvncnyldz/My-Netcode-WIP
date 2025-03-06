@@ -14,8 +14,8 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Expression<Action> action = () => Jump(50, "as");
-            ClientUtils.StartSendingJsonToServerWithKey(action,key);
+            /*Expression<Action> action = () => Jump(50, "as");
+            ClientUtils.StartSendingJsonToServerWithKey(action,key);*/
         }
     }
 
